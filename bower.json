@@ -1,0 +1,23 @@
+{
+  "name": "trafficcop",
+  "description": "A/B testing framework from the fine folks working on mozilla.org",
+  "main": "src/mozilla-traffic-cop.js",
+  "authors": [
+    "MozMEAO"
+  ],
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/mozilla/trafficcop",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mozilla-cookie-helper": "https://raw.githubusercontent.com/mozilla/trafficcop/master/src/mozilla-cookie-helper.js",
+    "mozilla-dnt-helper": "https://raw.githubusercontent.com/mozilla/trafficcop/master/src/mozilla-dnt-helper.js",
+    "mozilla-traffic-cop": "https://raw.githubusercontent.com/mozilla/trafficcop/master/src/mozilla-traffic-cop.js"
+  }
+}

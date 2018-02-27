@@ -23,6 +23,7 @@
     "karma-coverage": "^1.1.1",
     "karma-firefox-launcher": "^1.0.0",
     "karma-jasmine": "^1.1.0",
-    "sinon": "^1.17.7"
+    "sinon": "^1.17.7",
+    "bower": "^1.8.2"
   }
 }
